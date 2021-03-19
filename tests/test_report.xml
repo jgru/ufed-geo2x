@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project id="fe85c4b6-7a4e-4883-ac30-4271c22b471d" name="Samsung GSM_SM-G975F Galaxy S10 Plus" reportVersion="7.34" containsGarbage="False" extractionType="FileSystem" NodeCount="0" ModelCount="524" xmlns="http://pa.cellebrite.com/report/2.0">
+  <sourceExtractions>
+    <extractionInfo id="0" name="Devicestorage" isCustomName="True" type="FileSystem" deviceName="SAM_SMG975F" fullName="Samsung SM-G975F Galaxy S10 Plus" index="0" IsPartialData="False" IsSelectiveExtraction="False" />
+  </sourceExtractions>
+  <caseInformation />
+  <metadata section="Additional Fields">
+    <item name="DeviceInfoCreationTime" systemtype="System.String"><![CDATA[20.12.2020 13:33:15]]></item>
+    <item name="UFED_PA_Version" systemtype="System.String"><![CDATA[7.43.0.34]]></item>
+  </metadata>
+  <metadata section="Extraction Data">
+    <item name="DeviceInfoUnitIdentifier" sourceExtraction="2" systemtype="System.String"><![CDATA[2493386]]></item>
+    <item name="DeviceInfoUnitVersion" sourceExtraction="2" systemtype="System.String"><![CDATA[7.41.0.82]]></item>
+    <item name="DeviceInfoInternalVersion" sourceExtraction="2" systemtype="System.String"><![CDATA[7.41.0.82]]></item>
+    <item name="DeviceInfoSelectedManufacturer" sourceExtraction="2" systemtype="System.String"><![CDATA[Samsung GSM]]></item>
+    <item name="DeviceInfoSelectedDeviceName" sourceExtraction="2" systemtype="System.String"><![CDATA[SM-G975F Galaxy S10 Plus]]></item>
+    <item name="ExtractionType" sourceExtraction="2" systemtype="System.String"><![CDATA[Dateisystem [ Android Backup + APK downgrade ]]]></item>
+  </metadata>
+  <images>
+    <image key="Backup" path="Samsung GSM_SM-G975F Galaxy S10 Plus.zip" size="5561182538" type="File" verify="HoldsDataButNotCalculated" extractionId="2">
+      <metadata section="Hashes">
+        <item name="SHA256" systemtype="System.String"><![CDATA[723A3A993E7381910A62BB35A6B8A1443832FC3EF651F021ADA46D59B6EA382E]]></item>
+      </metadata>
+    </image>
+  </images>
+  <decodedData>
+          <modelType type="Location">
+            <model type="Location" id="7465e04d-9569-4a12-82e9-dd714874f92e" deleted_state="Intact" decoding_confidence="High" isrelated="False" source_index="2507" extractionId="2">
+            <field name="UserMapping" type="DecodingSourceOptions">
+              <value type="DecodingSourceOptions"><![CDATA[Decoding]]></value>
+            </field>
+            <field name="Source" type="String">
+              <empty />
+            </field>
+            <modelField name="Position" type="Coordinate">
+              <model type="Coordinate" id="92cb100e-cb42-4c15-a77f-5557f7e4fdc9" deleted_state="Unknown" decoding_confidence="High" isrelated="False" source_index="2306" extractionId="2">
+                <field name="UserMapping" type="DecodingSourceOptions">
+                  <value type="DecodingSourceOptions"><![CDATA[Decoding]]></value>
+                </field>
+                <field name="Longitude" type="Double">
+                  <value type="Double"><![CDATA[12.21821]]></value>
+                </field>
+                <field name="Latitude" type="Double">
+                  <value type="Double"><![CDATA[52.3461127]]></value>
+                </field>
+                <field name="Elevation" type="Double">
+                  <empty />
+                </field>
+                <field name="Comment" type="String">
+                  <value type="String"><![CDATA[A Comment]]></value>
+                </field>
+                <field name="PositionAddress" type="String">
+                  <empty />
+                </field>
+                <field name="Map" type="String">
+                  <empty />
+                </field>
+              </model>
+            </modelField>
+            <field name="PositionAddress" type="String">
+              <empty />
+            </field>
+            <modelField name="Address" type="StreetAddress">
+              <empty />
+            </modelField>
+            <field name="TimeStamp" type="TimeStamp">
+              <value type="TimeStamp" format="DateTimeOnly" formattedTimestamp="2020-12-16T11:53:14+01:00">2020-12-16T11:53:14.000</value>
+            </field>
+            <field name="Name" type="String">
+              <value type="String"><![CDATA[3255326112452127.jpg]]></value>
+            </field>
+            <field name="Description" type="String">
+              <empty />
+            </field>
+            <field name="Type" type="String">
+              <empty />
+            </field>
+            <field name="Precision" type="String">
+              <empty />
+            </field>
+            <field name="Confidence" type="Int32">
+              <empty />
+            </field>
+            <field name="Map" type="String">
+              <empty />
+            </field>
+            <field name="Category" type="String">
+              <value type="String"><![CDATA[Media Locations]]></value>
+            </field>
+            <field name="Origin" type="LocationOrigin">
+              <empty />
+            </field>
+            <field name="Account" type="String">
+              <empty />
+            </field>
+            <jumptargets name="">
+              <targetid ismodel="false"><![CDATA[148ff26d-7c38-4b14-9651-8cbd6a8ccdfb]]></targetid>
+            </jumptargets>
+          </model>
+          </modelType>
+  </decodedData>
+  <carvedFiles />
+  <infectedFiles />
+  <extraInfos>
+        <extraInfo type="model" id="7465e04d-9569-4a12-82e9-dd714874f92e">
+      <sourceInfo>
+        <nodeInfos>
+          <nodeInfo name="20200720_175243.jpg_embedded_1_partial.jpg" path="NO NAME/DCIM/Camera/20180720_175843.jpg/20200720_175243.jpg_embedded_1_partial.jpg" size="1590096" tableName="" offset="824" />
+        </nodeInfos>
+      </sourceInfo>
+    </extraInfo>
+  </extraInfos>
+  <projectConfigurations>
+    <timeZoneConfigurations enableDaylightSavings="False" enableAutomaticallyConvertToUTC="False" selectedTimeZone="_Europe/Berlin" />
+  </projectConfigurations>
+  <enrichments />
+</project>

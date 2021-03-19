@@ -1,0 +1,34 @@
+* ufed-geo2x
+
+This is a simple utility to extract geolocation data from a .xml-report of Cellebrite's UFED Physical Analyzer.
+
+** Description
+Following the *nix philosophy /"one tool, one job"/ it is the only goal to extract location data for further processing and
+visualization. Currently this is accomplished by extracting and converting geolocation data as .csv. More output formats,
+like geojson, might follow.
+
+** Installation
+This tool relies on Python > 3.7 standard libraries only, therefore no package installations are needed.
+Just move it to a directory in your ~$PATH~:
+
+#+BEGIN_SRC
+sudo cp ufed_geo2csv.py /usr/local/bin
+sudo chmod +x /usr/local/bin/ufed_geo2csv.py
+#+END_SRC
+
+** Usage
+There are two modes of operation: Supply data via STDIN or specify a .xml-file via a positional argument. To test it,
+just use the supplied dummy report.
+
+#+BEGIN_SRC
+# Pipe .xml-report to the tool
+cat tests/test_report.xml | python3.7 ufed_geo2csv.py | tee test_geos.csv
+
+# Specify a .xml-report as a positional argument
+python3.7 ufed_geo2csv.py tests/test_report.xml > test_geos.csv
+#+END_SRC
+
+To run the supplied tests, please use the following command.
+#+BEGIN_SRC
+python3 -m unittest discover
+#+END_SRC
