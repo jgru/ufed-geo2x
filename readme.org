@@ -3,7 +3,7 @@
 This is a simple utility to extract geolocation data from a .xml-report of Cellebrite's UFED Physical Analyzer.
 
 ** Description
-Following the *nix philosophy "/one tool, one job/" it is the only goal to extract location data for further processing and
+Following the *nix philosophy "/one tool, one job/", the only goal is to extract location data from a UFED report for further processing and
 visualization. Currently this is accomplished by extracting and converting geolocation data as .csv. More output formats,
 like geojson, might follow.
 
